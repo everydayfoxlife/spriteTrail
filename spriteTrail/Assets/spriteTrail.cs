@@ -47,6 +47,7 @@ public class spriteTrail : MonoBehaviour {
 		Color color = spriteRenderer.color;
 		color.a = alphaColor;
 		spriteRenderer.color = color;
+		yield return new WaitForEndOfFrame();
 
 		obj.SetActive (false);
 	}
