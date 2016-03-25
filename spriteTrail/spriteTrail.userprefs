@@ -1,10 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/spriteTrail.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ObjectPoolerScript.cs">
     <Files>
-      <File FileName="Assets/spriteTrail.cs" Line="50" Column="40" />
-      <File FileName="Assets/ObjectPoolerScript.cs" Line="49" Column="14" />
-      <File FileName="Assets/cloneDestroy.cs" Line="11" Column="29" />
+      <File FileName="Assets/spriteTrail.cs" Line="53" Column="3" />
+      <File FileName="Assets/ObjectPoolerScript.cs" Line="27" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

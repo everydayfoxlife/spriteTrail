@@ -9,6 +9,8 @@ public class ObjectPoolerScript : MonoBehaviour {
 	public int pooledAmount;
 	public bool willGrow;
 
+	public GameObject sprite;
+
 	private SpriteRenderer spriteRenderer;
 
 	List<GameObject> pooledObjects;
@@ -32,6 +34,7 @@ public class ObjectPoolerScript : MonoBehaviour {
 			{
 				spriteRenderer.sortingOrder = sortingOrder;
 				spriteRenderer.sortingLayerName = layerName;
+
 			}
 
 			obj.transform.position = obj.transform.localPosition;
